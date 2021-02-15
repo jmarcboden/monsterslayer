@@ -105,6 +105,7 @@ const app = Vue.createApp({
         actionType: what,
         actionValue: value
       }); //adds to the beginning of the array
+      console.log(this.logMessages);
     }
   }
 });
